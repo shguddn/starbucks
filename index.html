@@ -1,13 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Starbucks Coffee Korea</title>
   
-  <!--  오픈그래프 : 링크를 공유했을 때 미리보기로 확인할 수 있는 정보들-->
+  <!--Open Graph-->
+  <!--http://ogp.me/-->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Starbucks" />
   <meta property="og:title" content="Starbucks Coffee Korea" />
@@ -15,8 +15,8 @@
   <meta property="og:image" content="./images/starbucks_seo.jpg" />
   <meta property="og:url" content="https://starbucks.co.kr" />
   
-  <!-- 오픈 그래프 트위터타입 : 위와 비슷하나 트위터 형식임 -->
-  <!-- 이미지 파일에서 seo가 이름에 있는 것은 브라우저에 최적화 및 찾기 쉬우라고 명시해둔 것이다.  -->
+  <!--Twitter Card-->
+  <!--https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started-->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="Starbucks" />
   <meta property="twitter:title" content="Starbucks Coffee Korea" />
@@ -24,32 +24,34 @@
   <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
   <meta property="twitter:url" content="https://starbucks.co.kr" />
   
-  <link rel="icon" href="./favicon.png">
+  <!--파비콘-->
+  <!--<link rel="shortcut icon" href="favicon.ico" />-->
+  <link rel="icon" href="./favicon.png" />
+  <!--브라우저 스타일 초기화-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <!--Google Fonts - 나눔고딕-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+  <!--Google Material Icons-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="./css/main.css">
   
+  <link rel="stylesheet" href="./css/main.css" />
+  
+  <!--GSAP & ScrollToPlugin-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  <!-- GSAP & ScrollToPlugin-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  <!--SWIPER-->
+  <!--Swiper-->
   <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
-  
-  <!-- ScrollMagic  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--ScrollMagic-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <!--Lodash-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
   
   <script src="./js/youtube.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
 <body>
-
   <!--header-->
   <header>
     <div class="inner">
@@ -376,8 +378,6 @@
           </div>
         </li>
       </ul>
-      
-      
     </div>
     
     <div class="badges">
@@ -393,7 +393,6 @@
   <!--  VISUAL-->
   <section class = "visual">
     <div class="inner">
-      
       <div class="title fade-in">
         <img src="./images/visual_title.png" alt="STARBUCKS DELIGHTFUL START TO THE YEARS">
         <a href="javascript:void(0)" class="btn btn--brown" >자세히 보기</a>
@@ -411,7 +410,7 @@
       </div>
     </div>
   </section>
-
+  
   <section class="notice">
     <div class="notice-line">
       <div class="bg-left"></div>
@@ -529,13 +528,13 @@
     <div class="inner">
       <img src="./images/reserve_logo.png" alt="" class="reserve-logo back-to-position to-right delay-0">
       <div class="text-group">
-        <img src="./images/reserve_text.png" alt="" class="description back-to-position to-right delay-1">
-        <div class="more back-to-position to-right delay-2">
+        <img src="./images/reserve_text.png" alt="" class="description back-to-position delay-1">
+        <div class="more back-to-position to-right to-right delay-2">
           <a href="javascript:void(0)" class="btn btn--gold">자세히 보기</a>
         </div>
       </div>
       
-      <img src="./images/reserve_image.png" alt="" class="product back-to-position to-left delay-3">
+      <img src="./images/reserve_image.png" alt="" class="product back-to-position to-right delay-3">
     
     </div>
   </section>
@@ -547,7 +546,7 @@
         <img src="./images/favorite_text1.png" alt="" class="title back-to-position to-right delay-0">
         <img src="./images/favorite_text2.png" alt="" class="description back-to-position to-right delay-1">
         <div class="more back-to-position to-right delay-2">
-          <a href="javascript:void(0)" class="btn--white">자세히 보기</a>
+          <a href="javascript:void(0)" class="btn btn--white">자세히 보기</a>
         </div>
       </div>
     </div>
@@ -573,14 +572,14 @@
     <div class="inner">
       
       <img src="./images/find_store_texture1.png" alt="" class="texture1 back-to-position to-right delay-0">
-      <img src="./images/find_store_texture2.png" alt="" class="texture2 texture1 back-to-position to-right delay-1">
+      <img src="./images/find_store_texture2.png" alt="" class="texture2 back-to-position to-right delay-1">
       <img src="./images/find_store_picture1.jpg" alt="" class="picture picture1">
       <img src="./images/find_store_picture2.jpg" alt="" class="picture picture2">
       
       <div class="text-group">
-        <img src="./images/find_store_text1.png" alt="" class="title texture1 back-to-position to-left delay-0">
-        <img src="./images/find_store_text2.png" alt="" class="description texture1 back-to-position to-left delay-1">
-        <div class="more texture1 back-to-position to-left delay-2">
+        <img src="./images/find_store_text1.png" alt="" class="title back-to-position to-left delay-0">
+        <img src="./images/find_store_text2.png" alt="" class="description back-to-position to-left delay-1">
+        <div class="more text3 back-to-position to-left delay-2">
           <a href="javascript:void(0)" class="btn">매장찾기</a>
         </div>
       </div>
@@ -593,34 +592,34 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="./images/awards_slide1.jpg" alt="">
+            <img src="./images/awards_slide1.jpg" alt="대통령 표창" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide2.jpg" alt="">
+            <img src="./images/awards_slide2.jpg" alt="대통령 표창 (3년 연속)" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide3.jpg" alt="">
+            <img src="./images/awards_slide3.jpg" alt="우수사업주 인증" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide4.jpg" alt="">
+            <img src="./images/awards_slide4.jpg" alt="경연대회 대상" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide5.jpg" alt="">
+            <img src="./images/awards_slide5.jpg" alt="대한상의회장상" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide6.jpg" alt="">
+            <img src="./images/awards_slide6.jpg" alt="기업사회공헌 활동 부문" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide7.jpg" alt="">
+            <img src="./images/awards_slide7.jpg" alt="KSI 1위 (5년 연속)" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide8.jpg" alt="">
+            <img src="./images/awards_slide8.jpg" alt="KS-SQI 1위 (5년 연속)" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide9.jpg" alt="">
+            <img src="./images/awards_slide9.jpg" alt="커피전문점 부문 (4년 연속)" />
           </div>
           <div class="swiper-slide">
-            <img src="./images/awards_slide10.jpg" alt="">
+            <img src="./images/awards_slide10.jpg" alt="동반성장 부문 (4년 연속)" />
           </div>
         </div>
       </div>
@@ -638,7 +637,7 @@
   <footer>
     <div class="inner">
       <ul class="menu">
-         <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+         <li><a href="javascript:void(0)" class="green">개인정보처리방침</a></li>
         <li><a href="javascript:void(0)">영상정보처리기기 운영관리 방침</a></li>
         <li><a href="javascript:void(0)">홈페이지 이용약관</a></li>
         <li><a href="javascript:void(0)">위치정보 이용약관</a></li>
@@ -666,13 +665,12 @@
       <img src="./images/starbucks_logo_only_text.png" alt="" class="logo">
     </div>
   </footer>
-
+  
   <div id="to-top">
     <div class="material-icons">arrow_upward</div>
   </div>
-
-
-
-
 </body>
+
 </html>
+
+
